@@ -36,7 +36,7 @@ namespace BankaMatik_uygulaması
                 case 2:
                     Console.WriteLine("Lütfen yatıracağınız para miktarını seçiniz.");
                     int cekilecekMiktar = Convert.ToInt32(Console.ReadLine());
-                    mevcutBakiye = cekilecekMiktar - mevcutBakiye;
+                    mevcutBakiye = mevcutBakiye - cekilecekMiktar;
                     Console.WriteLine("İşlem başarılı. Yeni bakiyeniz: " + (mevcutBakiye));
                     Console.WriteLine("---------------------------------------------------------------------");
                     System.Threading.Thread.Sleep(2000);
