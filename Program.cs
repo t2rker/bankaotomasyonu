@@ -6,8 +6,6 @@ namespace BankaMatik_uygulaması
     {
         static void Main(string[] args)
         {
-            // Yazılıma dair paylaşımlar için @viablegames instagram sayfamızı takip etmeyi unutmayınız.
-            
             int mevcutBakiye = 0, islem;
 
             islem:
